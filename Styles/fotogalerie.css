@@ -1,0 +1,11 @@
+.grid-photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.grid-photo > img {
+    width: 27%;
+    margin-top: 130px;
+}
