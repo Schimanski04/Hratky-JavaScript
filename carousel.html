@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.1.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.1.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="stylesheet" href="./Styles/main.css">
     <title>Carousel</title>
 </head>
@@ -19,7 +21,25 @@
         </nav>
     </header>
 
+    <div class="swiffy-slider">
+        <ul class="slider-container">
+            <li><img src="./Images/01.jpg" style="max-width: 100%;height: auto;"></li>
+            <li><img src="./Images/02.jpg" style="max-width: 100%;height: auto;"></li>
+            <li><img src="./Images/03.jpg" style="max-width: 100%;height: auto;"></li>
+            <li><img src="./Images/04.jpg" style="max-width: 100%;height: auto;"></li>
+            <li><img src="./Images/05.jpg" style="max-width: 100%;height: auto;"></li>
+            <li><img src="./Images/06.jpg" style="max-width: 100%;height: auto;"></li>
+        </ul>
     
+        <button type="button" class="slider-nav"></button>
+        <button type="button" class="slider-nav slider-nav-next"></button>
+    
+        <div class="slider-indicators">
+            <button class="active"></button>
+            <button></button>
+            <button></button>
+        </div>
+    </div>
 
     <script src="./scripts/main.js"></script>
 </body>
